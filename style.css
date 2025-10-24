@@ -1,0 +1,80 @@
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    * {
+  margin: 0;
+  padding: 0; 
+  box-sizing: border-box;
+  font-family: 'poppins', sans-serif;
+}
+
+body {
+  background-image: url(./images/background.svg);
+  background-size: cover;
+
+}
+.logo {
+    padding: 5%;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.girl {
+    display: flex;
+    justify-content:center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    line-height: 1.2;
+    font-weight: 600;
+    padding: 12%;
+    color: rgb(212, 160, 168);
+}
+
+h1 .light {
+    color: #ce9797;
+    font-weight: 300;
+}
+
+h1 .dark {
+    color: #413a3a;
+    font-weight: 550;
+}
+
+.text {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0 20px;
+}
+.text p {
+    font-size: 1rem;
+    line-height: 1.6;
+    font-weight: 300;
+    color: #ce9797; 
+}
+
+input[type=text] {
+  width: 50%;
+  padding: 12px;
+  margin: 50px 110px;
+  box-sizing: border-box;
+}
+
+.input-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 12px;
+}
+.input-group img {
+  width: 30px;
+  height: 30px;
+  display: block;
+}
